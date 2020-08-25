@@ -1,0 +1,94 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    
+}
+header img {
+    margin: 10px 16px;
+}
+header nav .menu ul {
+    /*posicion absolute para que se posicione debajo del resto del header - top medida del header*/
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    overflow: hidden;
+    list-style: none;
+    background: rgba(0,0,236,1);
+    height: 0px;
+}
+header nav .menu  ul li {
+    position: relative;
+    margin: 24px 16px;
+} 
+header nav .menu  ul li:first-child {
+    margin: 16px;   
+} 
+header nav .menu  ul li:hover {
+    background: #5a5a5a;
+} 
+header nav .menu ul li a {
+    font-family: 'IBM Plex Mono', monospace;
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFFFF;
+    font-size: 16px;
+    line-height: 28px;
+    display: block;
+}
+header nav .menu  ul li a:hover {
+    color: #fff;
+} 
+
+header nav .menu input[type="checkbox"]:checked ~ ul {
+    height: 224px;
+    
+}
+header nav .menu {
+    margin: 16px 19px;
+    
+}
+/*checkbox transparente y en primer plano*/
+header nav .menu input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+}
+/*span -lineas del menu hamburguesa-*/
+header nav .menu span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin-bottom: 3px;
+    position: relative;
+    background: #000;
+    z-index: 1;
+    transform-origin: 2px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+header nav .menu span:first-child {
+    transform-origin: 0% 0%;
+}
+header nav .menu span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+/*movimiento a cruz*/
+header nav .menu input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+}
+header nav .menu input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+header nav .menu input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0px, -2px);
+}
+/*menu simple con tamaño menor a 1000px*/
