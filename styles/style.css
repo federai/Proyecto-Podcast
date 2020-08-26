@@ -274,8 +274,8 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 .episodes {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-  -webkit-transform: skewy(-6deg);
-          transform: skewy(-6deg);
+  -webkit-transform: skewy(-4deg);
+          transform: skewy(-4deg);
   -webkit-transform-origin: top right;
           transform-origin: top right;
   width: 100%;
@@ -297,21 +297,22 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     margin: 0;
 }*/
 .episodes .title {
-  margin-top: 100px;
+  margin-top: 64px;
   margin-left: 16px;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
-  color: #000000;
+  color: #FFFFFF;
   letter-spacing: 0;
   line-height: 42px;
   z-index: 3;
-  -webkit-transform: skewy(6deg);
-          transform: skewy(6deg);
+  -webkit-transform: skewy(4deg);
+          transform: skewy(4deg);
   -webkit-transform-origin: top right;
           transform-origin: top right;
 }
 
 .podcasts {
+  margin-top: 21px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,10 +320,8 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-transform: skewy(6deg);
-          transform: skewy(6deg);
+  -webkit-transform: skewy(4deg);
+          transform: skewy(4deg);
   -webkit-transform-origin: top right;
           transform-origin: top right;
 }
@@ -332,5 +331,51 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   padding: 11px 11px;
   height: 225px;
   border-radius: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .episodes {
+    width: 100%;
+    margin-top: 5px;
+    -webkit-transform: skewy(-7deg);
+            transform: skewy(-7deg);
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+  .episodes .title {
+    margin-top: 186px;
+    margin-left: 200px;
+    -webkit-transform: skewy(7deg);
+            transform: skewy(7deg);
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+  .episodes .podcasts {
+    -webkit-transform: skewy(7deg);
+            transform: skewy(7deg);
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: 2px solid red;
+  }
+  .episodes .podcasts iframe {
+    width: unset;
+  }
+  .episodes .podcasts:first-child {
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    border: 3px solid green;
+  }
+  .podcasts iframe:nth-of-type(2) {
+    border: 3px solid green;
+  }
 }
 /*# sourceMappingURL=style.css.map */
