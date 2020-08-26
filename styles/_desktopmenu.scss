@@ -37,20 +37,20 @@
         margin-right: 100px;
     }
     header nav .menu  ul li:hover {
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: $fontmono;
         text-decoration: line-through;
         color: rgba(0,243,187,1);
         background-color: unset;
         
     } 
     header nav .menu  ul li a:active {
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: $fontmono;
         text-decoration:line-through;
         color:rgba(6,10,36,0.56);
     }
     header nav .menu ul li a {
         padding: unset;
-        font-family: IBMPlexMono;
+        font-family: $fontmono;
         font-size: 16px;
         color: #060A24;
         letter-spacing: 0;
