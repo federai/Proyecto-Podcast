@@ -364,7 +364,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    border: 2px solid red;
+    border: 2px solid black;
   }
   .episodes .podcasts iframe {
     width: unset;
