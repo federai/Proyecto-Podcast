@@ -18,9 +18,17 @@
        flex-direction: row;
        flex-wrap: wrap;
        border: 2px solid black;
+
    }
+   /*Iframe de la izquierda tienen margin left 100px
+   Margin entre iframe es de 72px 
+   margin de iframes superiores 26px
+   margin de iframes derecha 100px
+   */
+   
    .episodes .podcasts iframe{
        width: unset;
+
    }
    .episodes .podcasts:first-child{
        align-content: flex-start;
