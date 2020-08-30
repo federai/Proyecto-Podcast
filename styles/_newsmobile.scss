@@ -1,0 +1,28 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%);
+    
+}
+    
+.news h1{
+    font-family: $fontsans;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 64px;
+}
+.news .button{
+    background: #00F3BB;
+    font-family: $fontmono;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    padding: 13px 96px;
+    margin: 36px 16px;
+}

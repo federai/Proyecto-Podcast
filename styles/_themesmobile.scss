@@ -1,0 +1,28 @@
+.themes{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 48px;
+}
+.themes h1{
+    font-family: $fontsans;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+.themes .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 37px;
+}
+.themes .icon .caption {
+    text-align: center;
+    font-family: $fontsans;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 13px;
+    font-weight: 600;
+}
