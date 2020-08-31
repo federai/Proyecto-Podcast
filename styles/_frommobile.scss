@@ -1,0 +1,24 @@
+.picture{
+    width: 100%;
+    transform: translateY(-80px);
+}
+.from .text{
+    margin-top: -50px;
+}
+.from h1{
+    font-family: $fontsans;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    padding: 16px;
+    
+}
+.from p{
+    padding: 16px;
+    font-family: $fontmono;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+}
