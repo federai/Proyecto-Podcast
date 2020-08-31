@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px){
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1% 7% 1% 7%;
+        justify-content: space-evenly;
+        
+    }
+    footer p{
+        justify-self: start;
+        align-self: center;
+        line-height: unset;
+        margin: unset;
+    }
+    footer .socialnetworks{
+        margin:unset;
+        align-self: center;
+        
+    }
+}

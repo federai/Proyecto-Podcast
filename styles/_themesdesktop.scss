@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px){
+    .themes h1{
+        font-size: 48px;
+        margin-left: 10%;
+        margin-top:2%;
+    }
+    
+    .containericons{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: space-evenly;
+        margin: 0% 10% 0% 10%;
+        }
+}
