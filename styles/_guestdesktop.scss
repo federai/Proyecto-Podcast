@@ -6,10 +6,11 @@
         font-size: 48px;
         margin-left: 15%;
     }
-    .gallery{
+    .guests .gallery{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr 1fr;
     }
  
 }
+    
