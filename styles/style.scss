@@ -10,19 +10,21 @@
 $fontmono: 'IBM Plex Mono', monospace;
 $fontsans: 'IBM Plex Sans', sans-serif;
 @import 'burgermenu';
-@import 'desktopmenu';
 @import 'titlemobile';
-@import 'titledesktop';
 @import 'episodesmobile';
-@import 'episodesdesktop';
 @import 'frommobile';
 @import 'guestmobile';
 @import 'themesmobile';
 @import 'newsmobile';
 @import 'footermobile';
+
+@media screen and (min-width: 768px){
+@import 'desktopmenu';
+@import 'titledesktop';
+@import 'episodesdesktop';
 @import 'fromdesktop';
 @import 'guestdesktop';
 @import 'themesdesktop';
 @import 'newsdesktop';
 @import 'footerdesktop';
-
+}
