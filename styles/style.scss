@@ -19,12 +19,12 @@ $fontsans: 'IBM Plex Sans', sans-serif;
 @import 'footermobile';
 
 @media screen and (min-width: 768px){
-@import 'desktopmenu';
-@import 'titledesktop';
-@import 'episodesdesktop';
-@import 'fromdesktop';
-@import 'guestdesktop';
-@import 'themesdesktop';
-@import 'newsdesktop';
-@import 'footerdesktop';
-}
+        @import 'desktopmenu';
+        @import 'titledesktop';
+        @import 'episodesdesktop';
+        @import 'fromdesktop';
+        @import 'guestdesktop';
+        @import 'themesdesktop';
+        @import 'newsdesktop';
+        @import 'footerdesktop';
+}       
