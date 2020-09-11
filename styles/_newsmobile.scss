@@ -17,12 +17,15 @@
 }
 .news .button{
     background: #00F3BB;
+    padding: 13px 96px;
+    margin: 36px 16px;
+}
+.news .button a{
+    text-decoration: none;
     font-family: $fontmono;
     font-size: 18px;
     color: #060A24;
     letter-spacing: 0;
     text-align: center;
     line-height: 24px;
-    padding: 13px 96px;
-    margin: 36px 16px;
 }

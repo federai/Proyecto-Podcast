@@ -164,14 +164,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 .title .button {
   background: #00F3BB;
+  padding: 13px 96px;
+  margin-top: 36px;
+}
+
+.title .button a {
+  text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
   color: #060A24;
   letter-spacing: 0;
   text-align: center;
   line-height: 24px;
-  padding: 13px 96px;
-  margin-top: 36px;
 }
 
 .episodes {
@@ -219,7 +223,6 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 .podcasts iframe {
   width: 100%;
   padding: 11px 11px;
-  height: 225px;
   border-radius: 10%;
 }
 
@@ -336,14 +339,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 .news .button {
   background: #00F3BB;
+  padding: 13px 96px;
+  margin: 36px 16px;
+}
+
+.news .button a {
+  text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
   color: #060A24;
   letter-spacing: 0;
   text-align: center;
   line-height: 24px;
-  padding: 13px 96px;
-  margin: 36px 16px;
 }
 
 footer p {
