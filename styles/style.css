@@ -166,9 +166,6 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   background: #00F3BB;
   padding: 13px 96px;
   margin-top: 36px;
-}
-
-.title .button a {
   text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
@@ -342,9 +339,6 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   background: #00F3BB;
   padding: 13px 96px;
   margin: 36px 16px;
-}
-
-.news .button a {
   text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
